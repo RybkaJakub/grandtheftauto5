@@ -11667,7 +11667,7 @@ body {
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/gangy/grove/bg.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/gangy/grove/grove1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -11725,7 +11725,7 @@ body {
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/gangy/ballas/bg.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/gangy/ballas/ballas1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -11824,7 +11824,7 @@ body {
 
 .about-grove {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/gangy/grove/bg2.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/gangy/grove/grove2.jpg");
     padding-bottom: 5rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -11839,7 +11839,7 @@ body {
 
 .about-ballas {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/gangy/ballas/bg2.png");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/gangy/ballasballas2.png");
     padding-bottom: 5rem;
     background-position: center;
     background-repeat: no-repeat;
