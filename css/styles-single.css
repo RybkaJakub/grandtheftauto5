@@ -6955,14 +6955,18 @@ fieldset:disabled .btn {
 }
 
 .carousel-caption {
+    font-family: 'Oswald', sans-serif;
     position: absolute;
     right: 15%;
-    bottom: 1.25rem;
+    top: 1rem;
     left: 15%;
     padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -11657,6 +11661,122 @@ body {
     }
 }
 
+.grove {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/gangy/grove/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+.grove h1,
+.grove .h1 {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.grove h2,
+.grove .h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .grove h1,
+    .grove .h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .grove {
+        height: 100vh;
+        padding: 0;
+    }
+    .grove h1,
+    .grove .h1 {
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+        letter-spacing: 0.8rem;
+    }
+    .grove h2,
+    .grove .h2 {
+        max-width: 30rem;
+        font-size: 1.25rem;
+    }
+}
+
+.ballas {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/gangy/ballas/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+.ballas h1,
+.ballas .h1 {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.ballas h2,
+.ballas .h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .ballas h1,
+    .ballas .h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .ballas {
+        height: 100vh;
+        padding: 0;
+    }
+    .ballas h1,
+    .ballas .h1 {
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+        letter-spacing: 0.8rem;
+    }
+    .ballas h2,
+    .ballas .h2 {
+        max-width: 30rem;
+        font-size: 1.25rem;
+    }
+}
+
 .about-story {
     padding-top: 10rem;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/singleplayer.jpg");
@@ -11699,6 +11819,36 @@ body {
 }
 
 .about-vagos p {
+    margin-bottom: 5rem;
+}
+
+.about-grove {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/gangy/grove/bg2.jpg");
+    padding-bottom: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+.about-grove p {
+    margin-bottom: 5rem;
+}
+
+.about-ballas {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%), url("../assets/img/gangy/ballas/bg2.png");
+    padding-bottom: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+.about-ballas p {
     margin-bottom: 5rem;
 }
 

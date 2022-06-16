@@ -6956,14 +6956,18 @@ fieldset:disabled .btn {
 }
 
 .carousel-caption {
+    font-family: 'Oswald', sans-serif;
     position: absolute;
     right: 15%;
-    bottom: 1.25rem;
+    top: 1rem;
     left: 15%;
     padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -11656,4 +11660,24 @@ body {
     bottom: 50px;
     height: 100px;
     width: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tabulka a {
+    color: darkgray;
+}
+
+.tabulka {
+    margin-bottom: 50px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(42, 149, 7);
+    padding: 8px;
 }
